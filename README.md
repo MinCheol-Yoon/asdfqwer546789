@@ -8,13 +8,13 @@
 `cd strong`
 * run LAE with DAN
 
-`sh LAE.sh`
+`sh dan_lae.sh`
 * run EASE with DAN
   
-`sh EASE.sh`
+`sh dan_ease.sh`
 * run RLAE with DAN
   
-`sh RALE.sh`
+`sh dan_rlae.sh`
 
 ## Reproduce Table 3
 * change base directory
@@ -22,10 +22,10 @@
 `cd weak`
 * run LAE with DAN
 
-`sh LAE.sh`
+`sh dan_lae.sh`
 * run EASE with DAN
   
-`sh EASE.sh`
+`sh dan_ease.sh`
 * run RLAE with DAN
   
-`sh RALE.sh`
+`sh dan_rlae.sh`
