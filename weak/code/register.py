@@ -19,4 +19,5 @@ MODELS = {
     'RLAE': model.RLAE,
     'RDLAE': model.RDLAE,
     'DAN': model.DAN,
+    'DAN_diag': model.DAN_diag
 }

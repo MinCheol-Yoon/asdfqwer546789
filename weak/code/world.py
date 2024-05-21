@@ -23,7 +23,7 @@ config['xi'] = args.xi
 # DAN hparams
 config['alpha'] = args.alpha
 config['beta'] = args.beta
-config['diag_relax'] = args.diag_relax
+config['relax'] = args.relax
 
 GPU_NUM = args.gpu
 CORES = multiprocessing.cpu_count() // 2

@@ -20,5 +20,6 @@ def parse_args():
     # DAN hparams
     parser.add_argument('--alpha', type=float, default=0.0)
     parser.add_argument('--beta', type=float, default=0.0)
-    parser.add_argument('--diag_relax', type=eval, default='True', choices=[True, False])
+    parser.add_argument('--relax', type=eval, default='True', choices=[True, False])
+    
     return parser.parse_args()
