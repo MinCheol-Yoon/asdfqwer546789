@@ -24,7 +24,7 @@ config['test_u_batch_size'] = args.testbatch
 # EASE hparams
 config['reg_p'] = args.reg_p
 config['diag_const'] = args.diag_const
-config['diag_relax'] = args.diag_relax
+
 # ELDAE hparams
 config['drop_p'] = args.drop_p
 # RLAE hparams
@@ -32,6 +32,7 @@ config['xi'] = args.xi
 # DAN hparams
 config['alpha'] = args.alpha
 config['beta'] = args.beta
+config['relax'] = args.relax
 
 CORES = multiprocessing.cpu_count() // 2
 
